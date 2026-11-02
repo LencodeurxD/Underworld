@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld/recipe/test.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/underworld/UnderworldMod.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "underworld",
+    "modName": "Underworld",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.underworld"
+  },
+  "mcreatorVersion": 202600233518
+}
