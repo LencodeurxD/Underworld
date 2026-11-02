@@ -1,0 +1,8 @@
+# Fichiers générés : inutiles à partager
+.gradle/
+build/
+run/
+out/
+.idea/
+*.log
+*.tmp
