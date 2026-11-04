@@ -1,61 +1,17 @@
 {
-  "mod_elements": [
-    {
-      "name": "Yotoutlemonde",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "yotoutlemonde",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/underworld/Yotoutlemonde.java"
-        ]
-      }
-    },
-    {
-      "name": "MonBlocAMoi",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mon_bloc_a_moi",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/underworld/models/block/mon_bloc_a_moi.json",
-          "src/main/java/net/mcreator/underworld/block/MonBlocAMoiBlock.java",
-          "src/main/resources/data/underworld/loot_table/blocks/mon_bloc_a_moi.json",
-          "src/main/resources/assets/underworld/models/item/mon_bloc_a_moi.json",
-          "src/main/resources/assets/underworld/blockstates/mon_bloc_a_moi.json"
-        ]
-      }
-    },
-    {
-      "name": "Bonjour",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bonjour",
-      "metadata": {
-        "files": []
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "block.underworld.mon_bloc_a_moi": "Mon Bloc A Moi",
-      "item_group.underworld.bonjour": "Bonjour"
-    }
+    "en_us": {}
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/underworld/init/UnderworldModBlocks.java",
-      "src/main/java/net/mcreator/underworld/init/UnderworldModItems.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/underworld/UnderworldMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
