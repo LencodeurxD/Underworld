@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.underworld.block.MonBlocAMoiBlock;
 import net.mcreator.underworld.UnderworldMod;
 
 public class UnderworldModBlocks {
