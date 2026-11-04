@@ -1,18 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "Yotoutlemonde",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "yotoutlemonde",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/underworld/Yotoutlemonde.java"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
