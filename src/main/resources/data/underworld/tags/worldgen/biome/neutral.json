@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "underworld:empty_plain",
+    "underworld:empty_forest",
+    "underworld:empty_txoend"
+  ]
+}

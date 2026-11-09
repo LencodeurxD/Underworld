@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "underworld_update:block/darkslab"
+    },
+    "type=top": {
+      "model": "underworld_update:block/darkslab_top"
+    },
+    "type=double": {
+      "model": "underworld_update:block/darkslab_full"
+    }
+  }
+}

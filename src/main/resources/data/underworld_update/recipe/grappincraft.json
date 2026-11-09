@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bc ",
+    "  a"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:yang"
+    },
+    "b": {
+      "item": "minecraft:iron_hoe"
+    },
+    "c": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "id": "underworld_update:grappin",
+    "count": 1
+  }
+}

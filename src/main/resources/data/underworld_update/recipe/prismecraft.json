@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "b": {
+      "item": "underworld_update:ying"
+    }
+  },
+  "result": {
+    "id": "underworld_update:solarbeam",
+    "count": 1
+  }
+}

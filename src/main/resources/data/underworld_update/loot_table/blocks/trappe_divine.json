@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "underworld_update:blocks/trappe_divine",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "underworld_update:trappe_divine"
+        }
+      ]
+    }
+  ]
+}

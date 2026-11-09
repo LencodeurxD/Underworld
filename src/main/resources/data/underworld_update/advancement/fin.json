@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "underworld_update:switchenderperle"
+    },
+    "title": {
+      "translate": "advancements.fin.title"
+    },
+    "description": {
+      "translate": "advancements.fin.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fin_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

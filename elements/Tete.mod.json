@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:Grappin",
+    "showParticles": true,
+    "actionSound": "entity.arrow.shoot",
+    "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": true,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.1,
+    "modelHeight": 0.1,
+    "onHitsBlock": "TeteLorsqueLeProjectileToucheUnBloc"
+  }
+}

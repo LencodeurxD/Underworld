@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "underworld_update:block/planches_claires",
+    "particle": "underworld_update:block/planches_claires"
+  },
+  "render_type": "solid"
+}

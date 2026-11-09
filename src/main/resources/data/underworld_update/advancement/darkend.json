@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "underworld_update:blackhole"
+    },
+    "title": {
+      "translate": "advancements.darkend.title"
+    },
+    "description": {
+      "translate": "advancements.darkend.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "darkend_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

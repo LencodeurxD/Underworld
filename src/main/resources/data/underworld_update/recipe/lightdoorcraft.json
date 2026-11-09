@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "category": "redstone",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:lightplanks"
+    }
+  },
+  "result": {
+    "id": "underworld_update:porte_claire",
+    "count": 3
+  }
+}

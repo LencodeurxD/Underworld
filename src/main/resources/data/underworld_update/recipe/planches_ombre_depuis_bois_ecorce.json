@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "underworld_update:bois_ecorce_ombre"
+    }
+  ],
+  "result": {
+    "id": "underworld_update:darkplanks",
+    "count": 4
+  }
+}

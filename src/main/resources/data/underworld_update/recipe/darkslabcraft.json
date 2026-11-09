@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:darkplanks"
+    }
+  },
+  "result": {
+    "id": "underworld_update:darkslab",
+    "count": 6
+  }
+}

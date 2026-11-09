@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:buche_ecorcee_de_lumiere"
+    }
+  },
+  "result": {
+    "id": "underworld_update:bois_ecorce_de_lumiere",
+    "count": 3
+  }
+}

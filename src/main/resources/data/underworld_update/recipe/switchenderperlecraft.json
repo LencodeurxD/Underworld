@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:yang"
+    },
+    "b": {
+      "item": "minecraft:ender_pearl"
+    },
+    "c": {
+      "item": "underworld_update:ying"
+    }
+  },
+  "result": {
+    "id": "underworld_update:switchenderperle",
+    "count": 1
+  }
+}

@@ -9,6 +9,7 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/underworld/init/UnderworldModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/underworld/UnderworldMod.java",
       "src/main/resources/pack.mcmeta"

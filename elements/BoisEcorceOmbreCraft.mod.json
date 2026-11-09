@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BucheEcorceeOmbre",
+      "CUSTOM:BucheEcorceeOmbre",
+      "",
+      "CUSTOM:BucheEcorceeOmbre",
+      "CUSTOM:BucheEcorceeOmbre",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BoisEcorceOmbre",
+    "name": "bois_ecorce_ombre_craft",
+    "namespace": "mod"
+  }
+}

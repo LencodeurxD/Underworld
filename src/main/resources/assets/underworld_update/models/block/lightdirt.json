@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "underworld_update:block/terre_claire",
+    "up": "underworld_update:block/terre_claire",
+    "north": "underworld_update:block/terre_claire",
+    "east": "underworld_update:block/terre_claire",
+    "south": "underworld_update:block/terre_claire",
+    "west": "underworld_update:block/terre_claire",
+    "particle": "underworld_update:block/terre_claire"
+  },
+  "render_type": "solid"
+}

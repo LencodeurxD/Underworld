@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "underworld_update:lightoak",
+    "underworld_update:darkoak",
+    "underworld_update:bois_ecorce_ombre",
+    "underworld_update:buche_ecorcee_ombre",
+    "underworld_update:tronc_divin",
+    "underworld_update:bois_ecorce_de_lumiere",
+    "underworld_update:bois_divin",
+    "underworld_update:bois_de_lumiere",
+    "underworld_update:bois_ecorce_divin",
+    "underworld_update:buche_ecorcee_de_lumiere",
+    "underworld_update:bois_ombre",
+    "underworld_update:buche_ecorcee_divine"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "underworld_update:blocks/porte_claire",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "underworld_update:porte_claire",
+          "conditions": [
+            {
+              "block": "underworld_update:porte_claire",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

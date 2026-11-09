@@ -1,0 +1,13 @@
+package net.mcreator.underworldupdate.block;
+
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+
+public class BucheEcorceeDivineBlock extends Block {
+	public BucheEcorceeDivineBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.WOOD).strength(1f, 10f).instrument(NoteBlockInstrument.BIT));
+	}
+}

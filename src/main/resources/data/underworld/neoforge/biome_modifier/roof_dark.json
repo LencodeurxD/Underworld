@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#underworld:dark",
+  "features": [
+    "underworld:roof_250",
+    "underworld:roof_251",
+    "underworld:roof_252",
+    "underworld:roof_253",
+    "underworld:roof_254",
+    "underworld:roof_255"
+  ],
+  "step": "top_layer_modification"
+}

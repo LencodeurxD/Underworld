@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "underworld_update:block/buche_ecorcee_ombre",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "underworld_update:block/buche_ecorcee_ombre"
+    },
+    "axis=z": {
+      "model": "underworld_update:block/buche_ecorcee_ombre",
+      "x": 90
+    }
+  }
+}

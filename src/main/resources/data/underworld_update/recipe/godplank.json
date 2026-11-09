@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "underworld_update:tronc_divin"
+    }
+  ],
+  "result": {
+    "id": "underworld_update:godplanks",
+    "count": 4
+  }
+}

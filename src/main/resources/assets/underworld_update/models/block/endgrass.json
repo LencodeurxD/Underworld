@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "underworld_update:block/terre_sombre",
+    "top": "underworld_update:block/bloc_herbe_sombre_dessus",
+    "side": "underworld_update:block/bloc_herbe_sombre_cote",
+    "overlay": "underworld_update:block/bloc_herbe_sombre_cote",
+    "particle": "underworld_update:block/terre_sombre"
+  },
+  "render_type": "cutout_mipped"
+}

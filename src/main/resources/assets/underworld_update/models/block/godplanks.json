@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "underworld_update:block/planches_divines",
+    "up": "underworld_update:block/planches_divines",
+    "north": "underworld_update:block/planches_divines",
+    "east": "underworld_update:block/planches_divines",
+    "south": "underworld_update:block/planches_divines",
+    "west": "underworld_update:block/planches_divines",
+    "particle": "underworld_update:block/planches_divines"
+  },
+  "render_type": "solid"
+}

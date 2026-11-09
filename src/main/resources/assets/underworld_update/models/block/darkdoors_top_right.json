@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "underworld_update:block/porte_sombre_bas",
+    "bottom": "underworld_update:block/porte_sombre_bas",
+    "top": "underworld_update:block/porte_sombre_haut"
+  },
+  "render_type": "cutout"
+}

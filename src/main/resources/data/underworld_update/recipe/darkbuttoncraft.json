@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "underworld_update:darkplanks"
+    }
+  ],
+  "result": {
+    "id": "underworld_update:darkbutton",
+    "count": 1
+  }
+}

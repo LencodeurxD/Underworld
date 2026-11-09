@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Verify fixed block shader compile",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"cd /d C:\\Users\\creep\\MCreatorWorkspaces\\test1 && C:\\Users\\creep\\Downloads\\MCreator.2026.2.Windows.64bit\\MCreator20262\\jdk\\bin\\java.exe -classpath gradle\\wrapper\\gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain compileJava"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

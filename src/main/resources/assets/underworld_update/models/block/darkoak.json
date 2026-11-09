@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "underworld_update:block/tronc_sombre_dessus",
+    "up": "underworld_update:block/tronc_sombre_dessus",
+    "north": "underworld_update:block/tronc_sombre",
+    "east": "underworld_update:block/tronc_sombre",
+    "south": "underworld_update:block/tronc_sombre",
+    "west": "underworld_update:block/tronc_sombre",
+    "particle": "underworld_update:block/tronc_sombre_dessus"
+  },
+  "render_type": "solid"
+}

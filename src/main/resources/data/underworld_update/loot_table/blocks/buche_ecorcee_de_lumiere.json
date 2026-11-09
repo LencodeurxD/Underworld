@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "underworld_update:blocks/buche_ecorcee_de_lumiere",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "underworld_update:buche_ecorcee_de_lumiere"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "underworld_update:block/porte_claire_bas",
+    "bottom": "underworld_update:block/porte_claire_bas",
+    "top": "underworld_update:block/porte_claire_haut"
+  },
+  "render_type": "cutout"
+}

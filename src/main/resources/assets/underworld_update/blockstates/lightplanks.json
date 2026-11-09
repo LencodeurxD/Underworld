@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "underworld_update:block/lightplanks",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "underworld_update:block/lightplanks"
+    },
+    "axis=z": {
+      "model": "underworld_update:block/lightplanks",
+      "x": 90
+    }
+  }
+}

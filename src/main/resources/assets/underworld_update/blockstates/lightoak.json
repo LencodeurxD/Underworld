@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "underworld_update:block/lightoak",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "underworld_update:block/lightoak"
+    },
+    "axis=z": {
+      "model": "underworld_update:block/lightoak",
+      "x": 90
+    }
+  }
+}

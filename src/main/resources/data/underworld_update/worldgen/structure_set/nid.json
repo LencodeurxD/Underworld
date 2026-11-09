@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "underworld_update:nid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 6,
+    "salt": 148840685
+  }
+}

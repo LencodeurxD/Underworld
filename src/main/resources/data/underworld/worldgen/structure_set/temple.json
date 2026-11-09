@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "underworld:temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 4,
+    "salt": 567394136,
+    "frequency": 0.3
+  }
+}

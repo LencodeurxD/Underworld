@@ -1,0 +1,13 @@
+{
+  "type": "underworld:underworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "underworld:underworld",
+    "biome_source": {
+      "type": "underworld:bubble",
+      "light": "#underworld:light",
+      "dark": "#underworld:dark",
+      "neutral": "#underworld:neutral"
+    }
+  }
+}

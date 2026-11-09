@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "underworld_update:block/plaque_de_pression_claire"
+    },
+    "powered=true": {
+      "model": "underworld_update:block/plaque_de_pression_claire_down"
+    }
+  }
+}

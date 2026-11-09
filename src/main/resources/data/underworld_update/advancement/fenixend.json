@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "underworld_update:firesword"
+    },
+    "title": {
+      "translate": "advancements.fenixend.title"
+    },
+    "description": {
+      "translate": "advancements.fenixend.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fenixend_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

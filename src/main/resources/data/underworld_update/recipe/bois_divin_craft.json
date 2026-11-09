@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:tronc_divin"
+    }
+  },
+  "result": {
+    "id": "underworld_update:bois_divin",
+    "count": 3
+  }
+}

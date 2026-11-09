@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Yang",
+      "Items.IRON_HOE",
+      "",
+      "Items.IRON_HOE",
+      "Items.LEAD",
+      "",
+      "",
+      "",
+      "CUSTOM:Yang"
+    ],
+    "recipeReturnStack": "CUSTOM:Grappin",
+    "name": "grappincraft",
+    "namespace": "mod"
+  }
+}

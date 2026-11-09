@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "category": "redstone",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:darkplanks"
+    }
+  },
+  "result": {
+    "id": "underworld_update:darkpressureplate",
+    "count": 1
+  }
+}

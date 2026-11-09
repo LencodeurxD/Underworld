@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "underworld_update:blocks/tronc_divin",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "underworld_update:tronc_divin"
+        }
+      ]
+    }
+  ]
+}

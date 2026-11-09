@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "underworld_update:block/planches_claires",
+    "bottom": "underworld_update:block/planches_claires",
+    "top": "underworld_update:block/planches_claires",
+    "side": "underworld_update:block/planches_claires"
+  },
+  "render_type": "solid"
+}

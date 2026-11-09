@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Darkplanks",
+      "CUSTOM:Darkplanks",
+      "",
+      "CUSTOM:Darkplanks",
+      "CUSTOM:Darkplanks",
+      "",
+      "CUSTOM:Darkplanks",
+      "CUSTOM:Darkplanks",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Darkdoors",
+    "name": "darkdoorcraft",
+    "namespace": "mod"
+  }
+}

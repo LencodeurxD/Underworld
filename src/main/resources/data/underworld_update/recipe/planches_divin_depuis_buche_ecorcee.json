@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "underworld_update:buche_ecorcee_divine"
+    }
+  ],
+  "result": {
+    "id": "underworld_update:godplanks",
+    "count": 4
+  }
+}

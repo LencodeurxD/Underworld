@@ -1,0 +1,3103 @@
+{
+  "mod_elements": [
+    {
+      "name": "TroncDivin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tronc_divin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/tronc_divin.json",
+          "src/main/resources/assets/underworld_update/blockstates/tronc_divin.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/tronc_divin.json",
+          "src/main/java/net/mcreator/underworldupdate/block/TroncDivinBlock.java",
+          "src/main/resources/assets/underworld_update/models/item/tronc_divin.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "Eden",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eden",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/mixin/BiomeSourcePresetMixin.java",
+          "src/main/java/net/mcreator/underworldupdate/world/features/treedecorators/EdenFruitDecorator.java",
+          "src/main/resources/data/underworld_update/worldgen/placed_feature/eden_tree.json",
+          "src/main/resources/data/underworld_update/worldgen/biome/eden.json",
+          "src/main/resources/data/underworld_update/worldgen/configured_feature/eden_tree.json"
+        ]
+      },
+      "path": "~/eden"
+    },
+    {
+      "name": "Godplanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/godplanks.json",
+          "src/main/resources/assets/underworld_update/models/block/godplanks.json",
+          "src/main/resources/assets/underworld_update/blockstates/godplanks.json",
+          "src/main/java/net/mcreator/underworldupdate/block/GodplanksBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/godplanks.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "Godplank",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godplank",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godplank.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Godleaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/godleaves.json",
+          "src/main/java/net/mcreator/underworldupdate/block/GodleavesBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/godleaves.json",
+          "src/main/resources/assets/underworld_update/models/block/godleaves.json",
+          "src/main/resources/assets/underworld_update/blockstates/godleaves.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "Endgrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/endgrass.json",
+          "src/main/resources/assets/underworld_update/models/block/endgrass.json",
+          "src/main/java/net/mcreator/underworldupdate/block/EndgrassBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/endgrass.json",
+          "src/main/resources/assets/underworld_update/blockstates/endgrass.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Txoend",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "txoend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/worldgen/configured_feature/txoend_tree.json",
+          "src/main/java/net/mcreator/underworldupdate/mixin/BiomeSourcePresetMixin.java",
+          "src/main/resources/data/underworld_update/worldgen/biome/txoend.json",
+          "src/main/resources/data/underworld_update/worldgen/placed_feature/txoend_tree.json"
+        ]
+      },
+      "path": "~/darkbiome"
+    },
+    {
+      "name": "Switchenderperle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switchenderperle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/item/SwitchenderperleItem.java",
+          "src/main/resources/assets/underworld_update/models/item/switchenderperle.json"
+        ]
+      },
+      "path": "~/items/switchenderperle"
+    },
+    {
+      "name": "Saveinv",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saveinv",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/SaveinvProcedure.java"
+        ]
+      },
+      "path": "~/items/clepsidre"
+    },
+    {
+      "name": "ClepsidreRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clepsidre_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/ClepsidreRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/items/clepsidre"
+    },
+    {
+      "name": "Clepsidre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clepsidre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/item/ClepsidreItem.java",
+          "src/main/resources/assets/underworld_update/models/item/clepsidre.json"
+        ]
+      },
+      "path": "~/items/clepsidre"
+    },
+    {
+      "name": "Ying",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ying",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/item/YingItem.java",
+          "src/main/resources/assets/underworld_update/models/item/ying.json"
+        ]
+      },
+      "path": "~/items/ying and yang"
+    },
+    {
+      "name": "Yang",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/yang.json",
+          "src/main/java/net/mcreator/underworldupdate/item/YangItem.java"
+        ]
+      },
+      "path": "~/items/ying and yang"
+    },
+    {
+      "name": "Darkoak",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkoak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/darkoak.json",
+          "src/main/resources/assets/underworld_update/blockstates/darkoak.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkoak.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkoakBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/darkoak.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darkplanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/blockstates/darkplanks.json",
+          "src/main/resources/assets/underworld_update/models/block/darkplanks.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkplanksBlock.java",
+          "src/main/resources/assets/underworld_update/models/item/darkplanks.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkplanks.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darktrapdoors",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darktrapdoors",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/blockstates/darktrapdoors.json",
+          "src/main/resources/assets/underworld_update/models/block/darktrapdoors.json",
+          "src/main/resources/assets/underworld_update/models/item/darktrapdoors.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarktrapdoorsBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/darktrapdoors_top.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darktrapdoors.json",
+          "src/main/resources/assets/underworld_update/models/block/darktrapdoors_open.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darkfence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkfence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/DarkfenceBlock.java",
+          "src/main/resources/assets/underworld_update/models/item/darkfence.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkfence.json",
+          "src/main/resources/assets/underworld_update/blockstates/darkfence.json",
+          "src/main/resources/assets/underworld_update/models/block/darkfence_post.json",
+          "src/main/resources/assets/underworld_update/models/block/darkfence.json",
+          "src/main/resources/assets/underworld_update/models/block/darkfence_inventory.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darkslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/darkslab_full.json",
+          "src/main/resources/assets/underworld_update/blockstates/darkslab.json",
+          "src/main/resources/assets/underworld_update/models/block/darkslab.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkslab.json",
+          "src/main/resources/assets/underworld_update/models/item/darkslab.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkslabBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/darkslab_top.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darkfencedoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkfencedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkfencedoor.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkfencedoorBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/darkfencedoor_wall_open.json",
+          "src/main/resources/assets/underworld_update/models/item/darkfencedoor.json",
+          "src/main/resources/assets/underworld_update/models/block/darkfencedoor.json",
+          "src/main/resources/assets/underworld_update/models/block/darkfencedoor_open.json",
+          "src/main/resources/assets/underworld_update/blockstates/darkfencedoor.json",
+          "src/main/resources/assets/underworld_update/models/block/darkfencedoor_wall.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darkbutton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkbutton",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/darkbutton.json",
+          "src/main/resources/assets/underworld_update/models/block/darkbutton_pressed.json",
+          "src/main/resources/assets/underworld_update/blockstates/darkbutton.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkbuttonBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/darkbutton.json",
+          "src/main/resources/assets/underworld_update/models/block/darkbutton_inventory.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkbutton.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darkpressureplate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkpressureplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/darkpressureplate.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkpressureplateBlock.java",
+          "src/main/resources/assets/underworld_update/blockstates/darkpressureplate.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkpressureplate.json",
+          "src/main/resources/assets/underworld_update/models/item/darkpressureplate.json",
+          "src/main/resources/assets/underworld_update/models/block/darkpressureplate_down.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Darkdoors",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkdoors",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_bottom_right.json",
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_bottom_right_open.json",
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_bottom_left_open.json",
+          "src/main/resources/assets/underworld_update/blockstates/darkdoors.json",
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_bottom_left.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkdoorsBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkdoors.json",
+          "src/main/resources/assets/underworld_update/models/item/darkdoors.json",
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_top_left_open.json",
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_top_left.json",
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_top_right.json",
+          "src/main/resources/assets/underworld_update/models/block/darkdoors_top_right_open.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "GrappinEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappin_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/GrappinEvenementAuClicDroitDansLairProcedure.java"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "GrappinLorsqueLitemEstDansEnMain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappin_lorsque_litem_est_dans_en_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/GrappinLorsqueLitemEstDansEnMainProcedure.java"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "GrappinQuandLeJoueurACesseDutiliser",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappin_quand_le_joueur_a_cesse_dutiliser",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/GrappinQuandLeJoueurACesseDutiliserProcedure.java"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "Grappin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/grappin.json",
+          "src/main/java/net/mcreator/underworldupdate/item/GrappinItem.java"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "TeteLorsqueLeProjectileToucheUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tete_lorsque_le_projectile_touche_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/TeteLorsqueLeProjectileToucheUnBlocProcedure.java"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "Tete",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/entity/TeteEntity.java"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "GrapplingRopeRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "grappling_rope_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/GrapplingRopeRenderer.java"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "Temple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/worldgen/structure/temple.json",
+          "src/main/resources/data/underworld_update/worldgen/template_pool/temple.json",
+          "src/main/resources/data/underworld_update/worldgen/structure_set/temple.json"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Firesword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firesword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/firesword.json",
+          "src/main/java/net/mcreator/underworldupdate/item/FireswordItem.java"
+        ]
+      },
+      "path": "~/items/firesword"
+    },
+    {
+      "name": "Mod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Switchenderperlecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switchenderperlecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/switchenderperlecraft.json"
+        ]
+      },
+      "path": "~/items/switchenderperle"
+    },
+    {
+      "name": "Darkstairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/darkstairs_outer.json",
+          "src/main/resources/assets/underworld_update/models/block/darkstairs.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DarkstairsBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/darkstairs.json",
+          "src/main/resources/assets/underworld_update/models/item/darkstairs.json",
+          "src/main/resources/assets/underworld_update/models/block/darkstairs_inner.json",
+          "src/main/resources/assets/underworld_update/blockstates/darkstairs.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "Inkbottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inkbottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/item/InkbottleItem.java",
+          "src/main/resources/assets/underworld_update/models/item/inkbottle.json"
+        ]
+      },
+      "path": "~/items/inkbottle"
+    },
+    {
+      "name": "Clepsidrecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clepsidrecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/clepsidrecraft.json"
+        ]
+      },
+      "path": "~/items/clepsidre"
+    },
+    {
+      "name": "Grappincraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grappincraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/grappincraft.json"
+        ]
+      },
+      "path": "~/items/grappin"
+    },
+    {
+      "name": "Lightoak",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightoak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/lightoak.json",
+          "src/main/resources/assets/underworld_update/models/item/lightoak.json",
+          "src/main/java/net/mcreator/underworldupdate/block/LightoakBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/lightoak.json",
+          "src/main/resources/assets/underworld_update/blockstates/lightoak.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "Lightplanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightplanks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/lightplanks.json",
+          "src/main/resources/assets/underworld_update/blockstates/lightplanks.json",
+          "src/main/resources/assets/underworld_update/models/item/lightplanks.json",
+          "src/main/java/net/mcreator/underworldupdate/block/LightplanksBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/lightplanks.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "Lightstairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/lightstairs_outer.json",
+          "src/main/resources/assets/underworld_update/blockstates/lightstairs.json",
+          "src/main/resources/assets/underworld_update/models/block/lightstairs.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/lightstairs.json",
+          "src/main/resources/assets/underworld_update/models/block/lightstairs_inner.json",
+          "src/main/resources/assets/underworld_update/models/item/lightstairs.json",
+          "src/main/java/net/mcreator/underworldupdate/block/LightstairsBlock.java"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "Lightslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/lightslab_top.json",
+          "src/main/resources/assets/underworld_update/blockstates/lightslab.json",
+          "src/main/resources/assets/underworld_update/models/item/lightslab.json",
+          "src/main/java/net/mcreator/underworldupdate/block/LightslabBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/lightslab.json",
+          "src/main/resources/assets/underworld_update/models/block/lightslab_full.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/lightslab.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "Lightgrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/blockstates/lightgrass.json",
+          "src/main/java/net/mcreator/underworldupdate/block/LightgrassBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/lightgrass.json",
+          "src/main/resources/assets/underworld_update/models/item/lightgrass.json",
+          "src/main/resources/assets/underworld_update/models/block/lightgrass.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "Lightdirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightdirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/lightdirt.json",
+          "src/main/java/net/mcreator/underworldupdate/block/LightdirtBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/lightdirt.json",
+          "src/main/resources/assets/underworld_update/blockstates/lightdirt.json",
+          "src/main/resources/assets/underworld_update/models/item/lightdirt.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "Lightbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/worldgen/placed_feature/lightbiome_tree.json",
+          "src/main/java/net/mcreator/underworldupdate/mixin/BiomeSourcePresetMixin.java",
+          "src/main/resources/data/underworld_update/worldgen/configured_feature/lightbiome_tree.json",
+          "src/main/java/net/mcreator/underworldupdate/world/features/treedecorators/LightbiomeFruitDecorator.java",
+          "src/main/resources/data/underworld_update/worldgen/biome/lightbiome.json"
+        ]
+      },
+      "path": "~/lightbiome"
+    },
+    {
+      "name": "Nid",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/worldgen/template_pool/nid.json",
+          "src/main/resources/data/underworld_update/worldgen/structure/nid.json",
+          "src/main/resources/data/underworld_update/worldgen/structure_set/nid.json"
+        ]
+      },
+      "path": "~/boss/phoenix"
+    },
+    {
+      "name": "Darkbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/worldgen/placed_feature/darkbiome_tree.json",
+          "src/main/resources/data/underworld_update/worldgen/biome/darkbiome.json",
+          "src/main/java/net/mcreator/underworldupdate/world/features/treedecorators/DarkbiomeFruitDecorator.java",
+          "src/main/resources/data/underworld_update/worldgen/configured_feature/darkbiome_tree.json"
+        ]
+      },
+      "path": "~/darkbiome"
+    },
+    {
+      "name": "Blackhole",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackhole",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/item/BlackholeItem.java",
+          "src/main/resources/assets/underworld_update/models/item/blackhole.json"
+        ]
+      },
+      "path": "~/items/trounoir"
+    },
+    {
+      "name": "Trou",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/entity/TrouEntity.java",
+          "src/main/java/net/mcreator/underworldupdate/client/renderer/TrouRenderer.java"
+        ]
+      },
+      "path": "~/items/trounoir"
+    },
+    {
+      "name": "BlackholeEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackhole_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/BlackholeEvenementAuClicDroitDansLairProcedure.java"
+        ]
+      },
+      "path": "~/items/trounoir"
+    },
+    {
+      "name": "TrouTantQueLeProjectileEstEnVole",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trou_tant_que_le_projectile_est_en_vole",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/TrouTantQueLeProjectileEstEnVoleProcedure.java"
+        ]
+      },
+      "path": "~/items/trounoir"
+    },
+    {
+      "name": "TrouLorsqueLeProjectileToucheUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trou_lorsque_le_projectile_touche_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/TrouLorsqueLeProjectileToucheUnBlocProcedure.java"
+        ]
+      },
+      "path": "~/items/trounoir"
+    },
+    {
+      "name": "SolarbeamEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarbeam_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/SolarbeamEvenementAuClicDroitDansLairProcedure.java"
+        ]
+      },
+      "path": "~/items/prisme"
+    },
+    {
+      "name": "Solarbeam",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarbeam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/item/SolarbeamItem.java",
+          "src/main/resources/assets/underworld_update/models/item/solarbeam.json"
+        ]
+      },
+      "path": "~/items/prisme"
+    },
+    {
+      "name": "Phoenix",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenix",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/client/renderer/PhoenixRenderer.java",
+          "src/main/resources/assets/underworld_update/models/item/phoenix_spawn_egg.json",
+          "src/main/java/net/mcreator/underworldupdate/entity/PhoenixEntity.java"
+        ]
+      },
+      "path": "~/boss/phoenix"
+    },
+    {
+      "name": "Ataak",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ataak",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/AtaakProcedure.java"
+        ]
+      },
+      "path": "~/boss/phoenix"
+    },
+    {
+      "name": "FireswordEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firesword_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/FireswordEvenementAuClicDroitDansLairProcedure.java"
+        ]
+      },
+      "path": "~/items/firesword"
+    },
+    {
+      "name": "FireswordQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firesword_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/FireswordQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure.java"
+        ]
+      },
+      "path": "~/items/firesword"
+    },
+    {
+      "name": "PhoenixQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenix_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/PhoenixQuandLentiteMeurtProcedure.java"
+        ]
+      },
+      "path": "~/boss/phoenix"
+    },
+    {
+      "name": "Prismecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prismecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/prismecraft.json"
+        ]
+      },
+      "path": "~/items/prisme"
+    },
+    {
+      "name": "Eppe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eppe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/eppe.json"
+        ]
+      },
+      "path": "~/items/firesword"
+    },
+    {
+      "name": "Trouo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trouo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/trouo.json"
+        ]
+      },
+      "path": "~/items/trounoir"
+    },
+    {
+      "name": "Infinitdark",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitdark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/client/renderer/InfinitdarkRenderer.java",
+          "src/main/resources/assets/underworld_update/models/item/infinitdark_spawn_egg.json",
+          "src/main/java/net/mcreator/underworldupdate/entity/InfinitdarkEntity.java",
+          "src/main/java/net/mcreator/underworldupdate/entity/InfinitdarkEntityProjectile.java"
+        ]
+      },
+      "path": "~/boss/infinitdark"
+    },
+    {
+      "name": "Villagerboss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerboss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/client/renderer/VillagerbossRenderer.java",
+          "src/main/java/net/mcreator/underworldupdate/entity/VillagerbossEntity.java",
+          "src/main/resources/assets/underworld_update/models/item/villagerboss_spawn_egg.json"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "BarriereClaire",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barriere_claire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/BarriereClaireBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/barriere_claire_post.json",
+          "src/main/resources/assets/underworld_update/models/block/barriere_claire_inventory.json",
+          "src/main/resources/assets/underworld_update/models/item/barriere_claire.json",
+          "src/main/resources/assets/underworld_update/blockstates/barriere_claire.json",
+          "src/main/resources/assets/underworld_update/models/block/barriere_claire.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/barriere_claire.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "PortillonClair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portillon_clair",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/portillon_clair.json",
+          "src/main/resources/assets/underworld_update/models/item/portillon_clair.json",
+          "src/main/resources/assets/underworld_update/models/block/portillon_clair_wall_open.json",
+          "src/main/resources/assets/underworld_update/models/block/portillon_clair.json",
+          "src/main/resources/assets/underworld_update/models/block/portillon_clair_open.json",
+          "src/main/resources/assets/underworld_update/blockstates/portillon_clair.json",
+          "src/main/resources/assets/underworld_update/models/block/portillon_clair_wall.json",
+          "src/main/java/net/mcreator/underworldupdate/block/PortillonClairBlock.java"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "BoutonClair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouton_clair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/bouton_clair_inventory.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/bouton_clair.json",
+          "src/main/resources/assets/underworld_update/blockstates/bouton_clair.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BoutonClairBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/bouton_clair_pressed.json",
+          "src/main/resources/assets/underworld_update/models/block/bouton_clair.json",
+          "src/main/resources/assets/underworld_update/models/item/bouton_clair.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "PlaqueDePressionClaire",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaque_de_pression_claire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/blockstates/plaque_de_pression_claire.json",
+          "src/main/resources/assets/underworld_update/models/block/plaque_de_pression_claire_down.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/plaque_de_pression_claire.json",
+          "src/main/java/net/mcreator/underworldupdate/block/PlaqueDePressionClaireBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/plaque_de_pression_claire.json",
+          "src/main/resources/assets/underworld_update/models/item/plaque_de_pression_claire.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "PorteClaire",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porte_claire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_bottom_right.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_bottom_right_open.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_top_right.json",
+          "src/main/java/net/mcreator/underworldupdate/block/PorteClaireBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_bottom_left_open.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_top_right_open.json",
+          "src/main/resources/assets/underworld_update/blockstates/porte_claire.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_top_left_open.json",
+          "src/main/resources/assets/underworld_update/models/item/porte_claire.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_bottom_left.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_claire_top_left.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/porte_claire.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "TrappeClaire",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trappe_claire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/trappe_claire.json",
+          "src/main/resources/assets/underworld_update/models/item/trappe_claire.json",
+          "src/main/resources/assets/underworld_update/models/block/trappe_claire_open.json",
+          "src/main/resources/assets/underworld_update/models/block/trappe_claire.json",
+          "src/main/java/net/mcreator/underworldupdate/block/TrappeClaireBlock.java",
+          "src/main/resources/assets/underworld_update/blockstates/trappe_claire.json",
+          "src/main/resources/assets/underworld_update/models/block/trappe_claire_top.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "EscalierDivin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "escalier_divin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/escalier_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/escalier_divin_inner.json",
+          "src/main/resources/assets/underworld_update/models/block/escalier_divin_outer.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/escalier_divin.json",
+          "src/main/resources/assets/underworld_update/blockstates/escalier_divin.json",
+          "src/main/java/net/mcreator/underworldupdate/block/EscalierDivinBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/escalier_divin.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "DalleDivine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalle_divine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/dalle_divine.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/dalle_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/dalle_divine.json",
+          "src/main/java/net/mcreator/underworldupdate/block/DalleDivineBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/dalle_divine_full.json",
+          "src/main/resources/assets/underworld_update/blockstates/dalle_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/dalle_divine_top.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "BarriereDivine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barriere_divine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/BarriereDivineBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/barriere_divine_post.json",
+          "src/main/resources/assets/underworld_update/models/block/barriere_divine_inventory.json",
+          "src/main/resources/assets/underworld_update/models/item/barriere_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/barriere_divine.json",
+          "src/main/resources/assets/underworld_update/blockstates/barriere_divine.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/barriere_divine.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "PortillonDivin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portillon_divin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/PortillonDivinBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/portillon_divin_open.json",
+          "src/main/resources/assets/underworld_update/models/item/portillon_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/portillon_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/portillon_divin_wall_open.json",
+          "src/main/resources/assets/underworld_update/blockstates/portillon_divin.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/portillon_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/portillon_divin_wall.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "BoutonDivin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouton_divin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/blockstates/bouton_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/bouton_divin_inventory.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/bouton_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/bouton_divin.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BoutonDivinBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/bouton_divin_pressed.json",
+          "src/main/resources/assets/underworld_update/models/item/bouton_divin.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "PlaqueDePressionDivine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaque_de_pression_divine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/plaque_de_pression_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/plaque_de_pression_divine_down.json",
+          "src/main/resources/assets/underworld_update/models/block/plaque_de_pression_divine.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/plaque_de_pression_divine.json",
+          "src/main/java/net/mcreator/underworldupdate/block/PlaqueDePressionDivineBlock.java",
+          "src/main/resources/assets/underworld_update/blockstates/plaque_de_pression_divine.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "PorteDivine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porte_divine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/PorteDivineBlock.java",
+          "src/main/resources/assets/underworld_update/models/item/porte_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_top_left.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_bottom_left_open.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_bottom_right_open.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_bottom_right.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_top_right.json",
+          "src/main/resources/assets/underworld_update/blockstates/porte_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_top_left_open.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_top_right_open.json",
+          "src/main/resources/assets/underworld_update/models/block/porte_divine_bottom_left.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/porte_divine.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "TrappeDivine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trappe_divine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/trappe_divine_open.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/trappe_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/trappe_divine.json",
+          "src/main/java/net/mcreator/underworldupdate/block/TrappeDivineBlock.java",
+          "src/main/resources/assets/underworld_update/models/item/trappe_divine.json",
+          "src/main/resources/assets/underworld_update/models/block/trappe_divine_top.json",
+          "src/main/resources/assets/underworld_update/blockstates/trappe_divine.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "Darkplankscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkplankscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkplankscraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darkstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkstairscraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darkslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkslabcraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darkfencecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkfencecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkfencecraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darkgatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkgatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkgatecraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darkbuttoncraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkbuttoncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkbuttoncraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darkplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkplatecraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darkdoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darkdoorcraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Darktrapdoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darktrapdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/darktrapdoorcraft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "Lightplankscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightplankscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightplankscraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lightstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightstairscraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lightslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightslabcraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lightfencecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightfencecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightfencecraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lightgatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightgatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightgatecraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lightbuttoncraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbuttoncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightbuttoncraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lightplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightplatecraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lightdoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lightdoorcraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Lighttrapdoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttrapdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/lighttrapdoorcraft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "Godstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godstairscraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Godslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godslabcraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Godfencecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godfencecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godfencecraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Godgatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godgatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godgatecraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Godbuttoncraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godbuttoncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godbuttoncraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Godplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godplatecraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Goddoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goddoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/goddoorcraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Godtrapdoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godtrapdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/godtrapdoorcraft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Tabledecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabledecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/tabledecraft.json",
+          "src/main/resources/data/underworld_update/advancement/recipes/tabledecraft.json"
+        ]
+      },
+      "path": "~/multicraft"
+    },
+    {
+      "name": "Stickcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/advancement/recipes/stickcraft.json",
+          "src/main/resources/data/underworld_update/recipe/stickcraft.json"
+        ]
+      },
+      "path": "~/multicraft"
+    },
+    {
+      "name": "BoisDivin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_divin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/blockstates/bois_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/bois_divin.json",
+          "src/main/resources/assets/underworld_update/models/item/bois_divin.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BoisDivinBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/bois_divin.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "BoisDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/BoisDeLumiereBlock.java",
+          "src/main/resources/assets/underworld_update/models/item/bois_de_lumiere.json",
+          "src/main/resources/assets/underworld_update/models/block/bois_de_lumiere.json",
+          "src/main/resources/assets/underworld_update/blockstates/bois_de_lumiere.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/bois_de_lumiere.json"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "BoisOmbre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ombre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/BoisOmbreBlock.java",
+          "src/main/resources/assets/underworld_update/models/item/bois_ombre.json",
+          "src/main/resources/assets/underworld_update/blockstates/bois_ombre.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/bois_ombre.json",
+          "src/main/resources/assets/underworld_update/models/block/bois_ombre.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "BucheEcorceeOmbre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buche_ecorcee_ombre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/buche_ecorcee_ombre.json",
+          "src/main/resources/assets/underworld_update/blockstates/buche_ecorcee_ombre.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BucheEcorceeOmbreBlock.java",
+          "src/main/resources/data/underworld_update/loot_table/blocks/buche_ecorcee_ombre.json",
+          "src/main/resources/assets/underworld_update/models/item/buche_ecorcee_ombre.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "BoisEcorceOmbre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ecorce_ombre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/bois_ecorce_ombre.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BoisEcorceOmbreBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/bois_ecorce_ombre.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/bois_ecorce_ombre.json",
+          "src/main/resources/assets/underworld_update/blockstates/bois_ecorce_ombre.json"
+        ]
+      },
+      "path": "~/darkbiome/blocs"
+    },
+    {
+      "name": "BucheEcorceeDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buche_ecorcee_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/block/buche_ecorcee_de_lumiere.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/buche_ecorcee_de_lumiere.json",
+          "src/main/resources/assets/underworld_update/models/item/buche_ecorcee_de_lumiere.json",
+          "src/main/resources/assets/underworld_update/blockstates/buche_ecorcee_de_lumiere.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BucheEcorceeDeLumiereBlock.java"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "BoisEcorceDeLumiere",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ecorce_de_lumiere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/bois_ecorce_de_lumiere.json",
+          "src/main/resources/assets/underworld_update/models/block/bois_ecorce_de_lumiere.json",
+          "src/main/resources/assets/underworld_update/models/item/bois_ecorce_de_lumiere.json",
+          "src/main/resources/assets/underworld_update/blockstates/bois_ecorce_de_lumiere.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BoisEcorceDeLumiereBlock.java"
+        ]
+      },
+      "path": "~/lightbiome/blocs"
+    },
+    {
+      "name": "BucheEcorceeDivine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buche_ecorcee_divine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underworld_update/models/item/buche_ecorcee_divine.json",
+          "src/main/resources/data/underworld_update/loot_table/blocks/buche_ecorcee_divine.json",
+          "src/main/resources/assets/underworld_update/blockstates/buche_ecorcee_divine.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BucheEcorceeDivineBlock.java",
+          "src/main/resources/assets/underworld_update/models/block/buche_ecorcee_divine.json"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "BoisEcorceDivin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ecorce_divin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/loot_table/blocks/bois_ecorce_divin.json",
+          "src/main/resources/assets/underworld_update/blockstates/bois_ecorce_divin.json",
+          "src/main/resources/assets/underworld_update/models/block/bois_ecorce_divin.json",
+          "src/main/resources/assets/underworld_update/models/item/bois_ecorce_divin.json",
+          "src/main/java/net/mcreator/underworldupdate/block/BoisEcorceDivinBlock.java"
+        ]
+      },
+      "path": "~/eden/blocs"
+    },
+    {
+      "name": "BoisOmbreCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ombre_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/bois_ombre_craft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "BoisEcorceOmbreCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ecorce_ombre_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/bois_ecorce_ombre_craft.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "PlanchesOmbreDepuisBois",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_ombre_depuis_bois",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_ombre_depuis_bois.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "PlanchesOmbreDepuisBucheEcorcee",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_ombre_depuis_buche_ecorcee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_ombre_depuis_buche_ecorcee.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "PlanchesOmbreDepuisBoisEcorce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_ombre_depuis_bois_ecorce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_ombre_depuis_bois_ecorce.json"
+        ]
+      },
+      "path": "~/darkbiome/crafts"
+    },
+    {
+      "name": "BoisLumiereCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_lumiere_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/bois_lumiere_craft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "BoisEcorceLumiereCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ecorce_lumiere_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/bois_ecorce_lumiere_craft.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "PlanchesLumiereDepuisBois",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_lumiere_depuis_bois",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_lumiere_depuis_bois.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "PlanchesLumiereDepuisBucheEcorcee",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_lumiere_depuis_buche_ecorcee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_lumiere_depuis_buche_ecorcee.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "PlanchesLumiereDepuisBoisEcorce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_lumiere_depuis_bois_ecorce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_lumiere_depuis_bois_ecorce.json"
+        ]
+      },
+      "path": "~/lightbiome/crafts"
+    },
+    {
+      "name": "BoisDivinCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_divin_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/bois_divin_craft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "BoisEcorceDivinCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bois_ecorce_divin_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/bois_ecorce_divin_craft.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "PlanchesDivinDepuisBois",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_divin_depuis_bois",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_divin_depuis_bois.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "PlanchesDivinDepuisBucheEcorcee",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_divin_depuis_buche_ecorcee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_divin_depuis_buche_ecorcee.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "PlanchesDivinDepuisBoisEcorce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planches_divin_depuis_bois_ecorce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/recipe/planches_divin_depuis_bois_ecorce.json"
+        ]
+      },
+      "path": "~/eden/crafts"
+    },
+    {
+      "name": "Musique",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musique",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/MusiqueProcedure.java"
+        ]
+      },
+      "path": "~/boss"
+    },
+    {
+      "name": "Fenixend",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fenixend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/advancement/fenixend.json"
+        ]
+      },
+      "path": "~/boss/phoenix"
+    },
+    {
+      "name": "ATAK",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atak",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/ATAKProcedure.java"
+        ]
+      },
+      "path": "~/boss/infinitdark"
+    },
+    {
+      "name": "InfinitdarkQuandLeJoueurEntreEnCollisionAvecLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitdark_quand_le_joueur_entre_en_collision_avec_lentite",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/InfinitdarkQuandLeJoueurEntreEnCollisionAvecLentiteProcedure.java"
+        ]
+      },
+      "path": "~/boss/infinitdark"
+    },
+    {
+      "name": "InfinitdarkQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitdark_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/InfinitdarkQuandLentiteMeurtProcedure.java"
+        ]
+      },
+      "path": "~/boss/infinitdark"
+    },
+    {
+      "name": "Darkend",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/advancement/darkend.json"
+        ]
+      },
+      "path": "~/boss/infinitdark"
+    },
+    {
+      "name": "Animevol",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animevol",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/AnimevolProcedure.java"
+        ]
+      },
+      "path": "~/boss/phoenix"
+    },
+    {
+      "name": "Attak",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attak",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/AttakProcedure.java"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Fin",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/advancement/fin.json"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "VillagerbossQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villagerboss_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/VillagerbossQuandLentiteMeurtProcedure.java"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Tp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/TpProcedure.java"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Lance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/LanceProcedure.java"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Invo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invo",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/InvoProcedure.java"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Main",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/MainProcedure.java"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Beam",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beam",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/procedures/BeamProcedure.java"
+        ]
+      },
+      "path": "~/boss/villagerboss"
+    },
+    {
+      "name": "Dark",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underworld_update/worldgen/structure/dark.json",
+          "src/main/resources/data/underworld_update/worldgen/structure_set/dark.json",
+          "src/main/resources/data/underworld_update/worldgen/template_pool/dark.json"
+        ]
+      },
+      "path": "~/boss/infinitdark"
+    },
+    {
+      "name": "Bedrockinstable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrockinstable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/underworldupdate/block/BedrockinstableBlock.java",
+          "src/main/resources/data/underworld_update/worldgen/placed_feature/bedrockinstable.json",
+          "src/main/resources/data/underworld_update/worldgen/configured_feature/bedrockinstable.json",
+          "src/main/resources/data/underworld_update/neoforge/biome_modifier/bedrockinstable_biome_modifier.json",
+          "src/main/resources/assets/underworld_update/models/block/bedrockinstable.json",
+          "src/main/resources/assets/underworld_update/blockstates/bedrockinstable.json",
+          "src/main/resources/assets/underworld_update/models/item/bedrockinstable.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "posx",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "pozy",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "posz",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "xyz",
+      "type": "vector",
+      "scope": "player_lifetime",
+      "value": "Vec3.ZERO"
+    },
+    {
+      "name": "v",
+      "type": "vector",
+      "scope": "player_lifetime",
+      "value": "Vec3.ZERO"
+    },
+    {
+      "name": "music",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "infinit_run",
+      "files": [
+        "sans_titre"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "grappin",
+      "files": [
+        "musicca-synth-1s"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "infinit_light",
+      "files": [
+        "infinite-light"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "infinit_dark",
+      "files": [
+        "darkbiome"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bosslight",
+      "files": [
+        "gloow-boss-theme"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bossdark",
+      "files": [
+        "bloom_boss_song"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:underworld_update:ametistearmor_repair_items": [],
+    "BLOCKS:minecraft:leaves": [
+      "CUSTOM:Godleaves"
+    ],
+    "ITEMS:mod:logs": [
+      "CUSTOM:Godplanks",
+      "CUSTOM:Darkplanks",
+      "CUSTOM:Lightplanks",
+      "Blocks.PLANKS#0",
+      "Blocks.PLANKS#1",
+      "Blocks.PLANKS#2",
+      "Blocks.PLANKS#3",
+      "Blocks.PLANKS#4",
+      "Blocks.PLANKS#5",
+      "Blocks.CRIMSON_PLANKS",
+      "Blocks.WARPED_PLANKS",
+      "Blocks.MANGROVE_PLANKS",
+      "Blocks.CHERRY_PLANKS",
+      "Blocks.BAMBOO_PLANKS"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~BoisEcorceDivin@CUSTOM:BoisEcorceDivin",
+      "~TroncDivin@CUSTOM:TroncDivin",
+      "~BucheEcorceeDivine@CUSTOM:BucheEcorceeDivine",
+      "~BoisEcorceDeLumiere@CUSTOM:BoisEcorceDeLumiere",
+      "~BucheEcorceeDeLumiere@CUSTOM:BucheEcorceeDeLumiere",
+      "~BoisEcorceOmbre@CUSTOM:BoisEcorceOmbre",
+      "~BucheEcorceeOmbre@CUSTOM:BucheEcorceeOmbre",
+      "~BoisOmbre@CUSTOM:BoisOmbre",
+      "~BoisDeLumiere@CUSTOM:BoisDeLumiere",
+      "~BoisDivin@CUSTOM:BoisDivin",
+      "~Lightoak@CUSTOM:Lightoak",
+      "~Darkoak@CUSTOM:Darkoak"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~Darktrapdoors@CUSTOM:Darktrapdoors",
+      "~TrappeClaire@CUSTOM:TrappeClaire",
+      "~TrappeDivine@CUSTOM:TrappeDivine"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~BarriereDivine@CUSTOM:BarriereDivine",
+      "~BarriereClaire@CUSTOM:BarriereClaire",
+      "~Darkfence@CUSTOM:Darkfence"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~DalleDivine@CUSTOM:DalleDivine",
+      "~Lightslab@CUSTOM:Lightslab",
+      "~Darkslab@CUSTOM:Darkslab"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~BoutonDivin@CUSTOM:BoutonDivin",
+      "~BoutonClair@CUSTOM:BoutonClair",
+      "~Darkbutton@CUSTOM:Darkbutton"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~PlaqueDePressionDivine@CUSTOM:PlaqueDePressionDivine",
+      "~PlaqueDePressionClaire@CUSTOM:PlaqueDePressionClaire",
+      "~Darkpressureplate@CUSTOM:Darkpressureplate"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~Darkdoors@CUSTOM:Darkdoors",
+      "~PorteDivine@CUSTOM:PorteDivine",
+      "~PorteClaire@CUSTOM:PorteClaire"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~Solarbeam@CUSTOM:Solarbeam",
+      "~Firesword@CUSTOM:Firesword"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~EscalierDivin@CUSTOM:EscalierDivin",
+      "~Lightstairs@CUSTOM:Lightstairs",
+      "~Darkstairs@CUSTOM:Darkstairs"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_swamp": [
+      "~Lightbiome@CUSTOM:Lightbiome"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Bedrockinstable@CUSTOM:Bedrockinstable"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Bedrockinstable@CUSTOM:Bedrockinstable"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.underworld_update.eden": "Divine Tree",
+      "item.underworld_update.tronc_divin": "Divine Log",
+      "item.underworld_update.godplanks": "Divine Planks",
+      "item.underworld_update.godleaves": "Divine Leaves",
+      "item.underworld_update.endgrass": "Shadow Grass Block",
+      "biome.underworld_update.txoend": "Twoend",
+      "item.underworld_update.switchenderperle": "Switch Ender Pearl",
+      "item.underworld_update.clepsidre": "Clepsydra",
+      "item.underworld_update.ying": "Yang Shard",
+      "item.underworld_update.yang": "Yin Shard",
+      "item.underworld_update.darkoak": "Shadow Log",
+      "item.underworld_update.darkplanks": "Shadow Planks",
+      "item.underworld_update.darktrapdoors": "Shadow Trapdoor",
+      "item.underworld_update.darkfence": "Shadow Fence",
+      "item.underworld_update.darkslab": "Shadow Slab",
+      "item.underworld_update.darkfencedoor": "Shadow Fence Gate",
+      "item.underworld_update.darkbutton": "Shadow Button",
+      "item.underworld_update.darkpressureplate": "Shadow Pressure Plate",
+      "item.underworld_update.darkdoors": "Shadow Door",
+      "block.underworld_update.tronc_divin": "Divine Log",
+      "block.underworld_update.godplanks": "Divine Planks",
+      "block.underworld_update.godleaves": "Divine Leaves",
+      "block.underworld_update.endgrass": "Shadow Grass Block",
+      "block.underworld_update.darkoak": "Shadow Log",
+      "block.underworld_update.darkplanks": "Shadow Planks",
+      "block.underworld_update.darktrapdoors": "Shadow Trapdoor",
+      "block.underworld_update.darkfence": "Shadow Fence",
+      "block.underworld_update.darkslab": "Shadow Slab",
+      "block.underworld_update.darkfencedoor": "Shadow Fence Gate",
+      "block.underworld_update.darkbutton": "Shadow Button",
+      "block.underworld_update.darkpressureplate": "Shadow Pressure Plate",
+      "block.underworld_update.darkdoors": "Shadow Door",
+      "item.underworld_update.grappin": "Grappling Hook",
+      "item.underworld_update.firesword": "Fire Sword",
+      "item_group.underworld_update.mod": "Mod",
+      "block.underworld_update.darkstairs": "Shadow Stairs",
+      "item.underworld_update.inkbottle": "Ink Bottle",
+      "block.underworld_update.lightoak": "Luminous Log",
+      "block.underworld_update.lightplanks": "Luminous Planks",
+      "block.underworld_update.lightstairs": "Luminous Stairs",
+      "block.underworld_update.lightslab": "Luminous Slab",
+      "block.underworld_update.lightgrass": "Luminous Grass Block",
+      "block.underworld_update.lightdirt": "Luminous Dirt",
+      "biome.underworld_update.lightbiome": "Light Biome",
+      "biome.underworld_update.darkbiome": "Dark Biome",
+      "subtitles.infinit_run": "",
+      "subtitles.grappin": "",
+      "subtitles.infinit_light": "",
+      "subtitles.infinit_dark": "",
+      "subtitles.bosslight": "",
+      "subtitles.bossdark": "",
+      "item.underworld_update.blackhole": "Black Hole",
+      "item.underworld_update.solarbeam": "Solar Beam",
+      "entity.underworld_update.phoenix": "Phoenix",
+      "item.underworld_update.phoenix_spawn_egg": "Phoenix Spawn Egg",
+      "entity.underworld_update.infinitdark": "Infinite Darkness",
+      "item.underworld_update.infinitdark_spawn_egg": "Infinite Darkness Spawn Egg",
+      "item.underworld_update.villagerboss_spawn_egg": "Villager Boss Spawn Egg",
+      "entity.underworld_update.villagerboss": "Villager Boss",
+      "block.underworld_update.barriere_claire": "Luminous Fence",
+      "block.underworld_update.portillon_clair": "Luminous Fence Gate",
+      "block.underworld_update.bouton_clair": "Luminous Button",
+      "block.underworld_update.plaque_de_pression_claire": "Luminous Pressure Plate",
+      "block.underworld_update.porte_claire": "Luminous Door",
+      "block.underworld_update.trappe_claire": "Luminous Trapdoor",
+      "block.underworld_update.escalier_divin": "Divine Stairs",
+      "block.underworld_update.dalle_divine": "Divine Slab",
+      "block.underworld_update.barriere_divine": "Divine Fence",
+      "block.underworld_update.portillon_divin": "Divine Fence Gate",
+      "block.underworld_update.bouton_divin": "Divine Button",
+      "block.underworld_update.plaque_de_pression_divine": "Divine Pressure Plate",
+      "block.underworld_update.porte_divine": "Divine Door",
+      "block.underworld_update.trappe_divine": "Divine Trapdoor",
+      "block.underworld_update.bois_divin": "Divine Wood",
+      "block.underworld_update.bois_de_lumiere": "Luminous Wood",
+      "block.underworld_update.bois_ombre": "Shadow Wood",
+      "block.underworld_update.buche_ecorcee_ombre": "Stripped Shadow Log",
+      "block.underworld_update.bois_ecorce_ombre": "Stripped Shadow Wood",
+      "block.underworld_update.buche_ecorcee_de_lumiere": "Stripped Luminous Log",
+      "block.underworld_update.bois_ecorce_de_lumiere": "Stripped Luminous Wood",
+      "block.underworld_update.buche_ecorcee_divine": "Stripped Divine Log",
+      "block.underworld_update.bois_ecorce_divin": "Stripped Divine Wood",
+      "advancements.fenixend.title": "Il ne renaîtera pas de ses cendres",
+      "advancements.fenixend.descr": "vous avez battu le phoenix",
+      "advancements.darkend.title": "La lumière revient",
+      "advancements.darkend.descr": "vous avez battu le boss des ténèbres",
+      "advancements.fin.descr": "vous avez vaicu le boss finale du mod ",
+      "advancements.fin.title": "Wtf c\u0027était quoi ça",
+      "block.underworld_update.bedrockinstable": "Bedrockinstable"
+    },
+    "fr_fr": {
+      "biome.underworld_update.eden": "Arbre divin",
+      "item.underworld_update.tronc_divin": "Bûche divine",
+      "item.underworld_update.godplanks": "Planches divines",
+      "item.underworld_update.godleaves": "Feuilles divines",
+      "item.underworld_update.endgrass": "Bloc d\u0027herbe d\u0027ombre",
+      "biome.underworld_update.txoend": "Twoend",
+      "item.underworld_update.switchenderperle": "Perle d\u0027Ender d\u0027échange",
+      "item.underworld_update.clepsidre": "Clepsidre",
+      "item.underworld_update.ying": "Éclat de yang",
+      "item.underworld_update.yang": "Éclat de yin",
+      "item.underworld_update.darkoak": "Bûche d\u0027ombre",
+      "item.underworld_update.darkplanks": "Planches d\u0027ombre",
+      "item.underworld_update.darktrapdoors": "Trappe d\u0027ombre",
+      "item.underworld_update.darkfence": "Barrière d\u0027ombre",
+      "item.underworld_update.darkslab": "Dalle d\u0027ombre",
+      "item.underworld_update.darkfencedoor": "Portillon d\u0027ombre",
+      "item.underworld_update.darkbutton": "Bouton d\u0027ombre",
+      "item.underworld_update.darkpressureplate": "Plaque de pression d\u0027ombre",
+      "item.underworld_update.darkdoors": "Porte d\u0027ombre",
+      "block.underworld_update.tronc_divin": "Bûche divine",
+      "block.underworld_update.godplanks": "Planches divines",
+      "block.underworld_update.godleaves": "Feuilles divines",
+      "block.underworld_update.endgrass": "Bloc d\u0027herbe d\u0027ombre",
+      "block.underworld_update.darkoak": "Bûche d\u0027ombre",
+      "block.underworld_update.darkplanks": "Planches d\u0027ombre",
+      "block.underworld_update.darktrapdoors": "Trappe d\u0027ombre",
+      "block.underworld_update.darkfence": "Barrière d\u0027ombre",
+      "block.underworld_update.darkslab": "Dalle d\u0027ombre",
+      "block.underworld_update.darkfencedoor": "Portillon d\u0027ombre",
+      "block.underworld_update.darkbutton": "Bouton d\u0027ombre",
+      "block.underworld_update.darkpressureplate": "Plaque de pression d\u0027ombre",
+      "block.underworld_update.darkdoors": "Porte d\u0027ombre",
+      "item.underworld_update.grappin": "Grappin",
+      "item.underworld_update.firesword": "Épée de feu",
+      "item_group.underworld_update.mod": "Mod",
+      "block.underworld_update.darkstairs": "Escalier d\u0027ombre",
+      "item.underworld_update.inkbottle": "Fiole d\u0027encre",
+      "block.underworld_update.lightoak": "Bûche de lumière",
+      "block.underworld_update.lightplanks": "Planches de lumière",
+      "block.underworld_update.lightstairs": "Escalier de lumière",
+      "block.underworld_update.lightslab": "Dalle de lumière",
+      "block.underworld_update.lightgrass": "Bloc d\u0027herbe de lumière",
+      "block.underworld_update.lightdirt": "Terre de lumière",
+      "biome.underworld_update.lightbiome": "Biome clair",
+      "biome.underworld_update.darkbiome": "Biome sombre",
+      "subtitles.infinit_run": "",
+      "subtitles.grappin": "",
+      "subtitles.infinit_light": "",
+      "subtitles.infinit_dark": "",
+      "subtitles.bosslight": "",
+      "subtitles.bossdark": "",
+      "item.underworld_update.blackhole": "Trou noir",
+      "item.underworld_update.solarbeam": "Rayon solaire",
+      "entity.underworld_update.phoenix": "Phénix",
+      "item.underworld_update.phoenix_spawn_egg": "Œuf d\u0027apparition de phénix",
+      "entity.underworld_update.infinitdark": "Ténèbres infinies",
+      "item.underworld_update.infinitdark_spawn_egg": "Œuf d\u0027apparition de ténèbres infinies",
+      "item.underworld_update.villagerboss_spawn_egg": "Œuf d\u0027apparition de villageois boss",
+      "entity.underworld_update.villagerboss": "Villageois boss",
+      "block.underworld_update.barriere_claire": "Barrière de lumière",
+      "block.underworld_update.portillon_clair": "Portillon de lumière",
+      "block.underworld_update.bouton_clair": "Bouton de lumière",
+      "block.underworld_update.plaque_de_pression_claire": "Plaque de pression de lumière",
+      "block.underworld_update.porte_claire": "Porte de lumière",
+      "block.underworld_update.trappe_claire": "Trappe de lumière",
+      "block.underworld_update.escalier_divin": "Escalier divin",
+      "block.underworld_update.dalle_divine": "Dalle divine",
+      "block.underworld_update.barriere_divine": "Barrière divine",
+      "block.underworld_update.portillon_divin": "Portillon divin",
+      "block.underworld_update.bouton_divin": "Bouton divin",
+      "block.underworld_update.plaque_de_pression_divine": "Plaque de pression divine",
+      "block.underworld_update.porte_divine": "Porte divine",
+      "block.underworld_update.trappe_divine": "Trappe divine",
+      "block.underworld_update.bois_divin": "Bois divin",
+      "block.underworld_update.bois_de_lumiere": "Bois de lumière",
+      "block.underworld_update.bois_ombre": "Bois d\u0027ombre",
+      "block.underworld_update.buche_ecorcee_ombre": "Bûche écorcée d\u0027ombre",
+      "block.underworld_update.bois_ecorce_ombre": "Bois écorcé d\u0027ombre",
+      "block.underworld_update.buche_ecorcee_de_lumiere": "Bûche écorcée de lumière",
+      "block.underworld_update.bois_ecorce_de_lumiere": "Bois écorcé de lumière",
+      "block.underworld_update.buche_ecorcee_divine": "Bûche écorcée divine",
+      "block.underworld_update.bois_ecorce_divin": "Bois écorcé divin",
+      "advancements.fenixend.title": "Il ne renaîtera pas de ses cendres",
+      "advancements.fenixend.descr": "vous avait battu le phoenix",
+      "advancements.darkend.title": "La lumière revient",
+      "advancements.darkend.descr": "vous avez battu le boss des ténèbre",
+      "advancements.fin.descr": "vous avez vaicu le boss finale du mod ",
+      "advancements.fin.title": "Wtf c\u0027était quoi ça",
+      "block.underworld_update.bedrockinstable": "Bedrockinstable"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/underworldupdate/init/UnderworldUpdateModBlocks.java",
+      "src/main/java/net/mcreator/underworldupdate/init/UnderworldUpdateModItems.java",
+      "src/main/java/net/mcreator/underworldupdate/init/UnderworldUpdateModEntities.java",
+      "src/main/java/net/mcreator/underworldupdate/init/UnderworldUpdateModEntityRenderers.java",
+      "src/main/java/net/mcreator/underworldupdate/UnderworldUpdateMod.java",
+      "src/main/java/net/mcreator/underworldupdate/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/mcreator/underworldupdate/init/UnderworldUpdateModTabs.java",
+      "src/main/java/net/mcreator/underworldupdate/init/UnderworldUpdateModSounds.java",
+      "src/main/java/net/mcreator/underworldupdate/mixin/CameraAccessor.java",
+      "src/main/java/net/mcreator/underworldupdate/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/mcreator/underworldupdate/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/mcreator/underworldupdate/network/UnderworldUpdateModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/underworldupdate/init/UnderworldUpdateModModels.java",
+      "src/main/resources/underworld_update.mixins.json",
+      "src/main/java/net/mcreator/underworldupdate/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/mcreator/underworldupdate/UnderworldUpdateModPlayerAnimationAPI.java",
+      "src/main/resources/assets/underworld_update/sounds.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/underworldupdate/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/mcreator/underworldupdate/mixin/LevelRendererMixin.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/underworldupdate/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/mcreator/underworldupdate/mixin/ItemInHandRendererMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "eden",
+        "children": [
+          {
+            "name": "crafts",
+            "children": []
+          },
+          {
+            "name": "blocs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "lightbiome",
+        "children": [
+          {
+            "name": "crafts",
+            "children": []
+          },
+          {
+            "name": "blocs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "darkbiome",
+        "children": [
+          {
+            "name": "crafts",
+            "children": []
+          },
+          {
+            "name": "blocs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "switchenderperle",
+            "children": []
+          },
+          {
+            "name": "clepsidre",
+            "children": []
+          },
+          {
+            "name": "ying and yang",
+            "children": []
+          },
+          {
+            "name": "grappin",
+            "children": []
+          },
+          {
+            "name": "firesword",
+            "children": []
+          },
+          {
+            "name": "inkbottle",
+            "children": []
+          },
+          {
+            "name": "trounoir",
+            "children": []
+          },
+          {
+            "name": "prisme",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "boss",
+        "children": [
+          {
+            "name": "phoenix",
+            "children": []
+          },
+          {
+            "name": "infinitdark",
+            "children": []
+          },
+          {
+            "name": "villagerboss",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "multicraft",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "underworld_update",
+    "modName": "Underworld update",
+    "version": "1.0.0",
+    "description": "Dans ce mod découvrer: de nouveaux biomes, des musiques originales, des créatures, des boss et une histoire à découvrir au fil de l\u0027aventure                                                                                                                           ",
+    "author": "Kynalil, Lencodeur, Léo Pépito, lelapin maitre des fautes, CrepeZen ",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "pp",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.underworldupdate"
+  },
+  "mcreatorVersion": 202600233518
+}

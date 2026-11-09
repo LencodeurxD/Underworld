@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:Blackhole",
+    "showParticles": false,
+    "actionSound": "entity.arrow.shoot",
+    "igniteFire": false,
+    "disableGravity": false,
+    "disableDiscarding": true,
+    "power": 0.0,
+    "damage": 0.0,
+    "knockback": 0,
+    "entityModel": "Modeltrou",
+    "customModelTexture": "corde_grappin.png",
+    "modelWidth": 0.2,
+    "modelHeight": 0.2,
+    "onHitsBlock": "TrouLorsqueLeProjectileToucheUnBloc",
+    "onFlyingTick": "TrouTantQueLeProjectileEstEnVole"
+  }
+}

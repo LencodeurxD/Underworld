@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "underworld_update:block/planches_divines",
+    "bottom": "underworld_update:block/planches_divines",
+    "top": "underworld_update:block/planches_divines",
+    "side": "underworld_update:block/planches_divines"
+  },
+  "render_type": "solid"
+}

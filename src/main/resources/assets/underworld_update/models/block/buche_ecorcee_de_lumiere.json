@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "underworld_update:block/tronc_clair_ecorce_dessus",
+    "up": "underworld_update:block/tronc_clair_ecorce_dessus",
+    "north": "underworld_update:block/tronc_clair_ecorce",
+    "east": "underworld_update:block/tronc_clair_ecorce",
+    "south": "underworld_update:block/tronc_clair_ecorce",
+    "west": "underworld_update:block/tronc_clair_ecorce",
+    "particle": "underworld_update:block/tronc_clair_ecorce_dessus"
+  },
+  "render_type": "solid"
+}

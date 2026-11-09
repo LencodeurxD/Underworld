@@ -1,0 +1,50 @@
+{
+  "infinit_run": {
+    "sounds": [
+      {
+        "name": "underworld_update:sans_titre",
+        "stream": false
+      }
+    ]
+  },
+  "grappin": {
+    "sounds": [
+      {
+        "name": "underworld_update:musicca-synth-1s",
+        "stream": false
+      }
+    ]
+  },
+  "infinit_light": {
+    "sounds": [
+      {
+        "name": "underworld_update:infinite-light",
+        "stream": false
+      }
+    ]
+  },
+  "infinit_dark": {
+    "sounds": [
+      {
+        "name": "underworld_update:darkbiome",
+        "stream": false
+      }
+    ]
+  },
+  "bosslight": {
+    "sounds": [
+      {
+        "name": "underworld_update:gloow-boss-theme",
+        "stream": false
+      }
+    ]
+  },
+  "bossdark": {
+    "sounds": [
+      {
+        "name": "underworld_update:bloom_boss_song",
+        "stream": false
+      }
+    ]
+  }
+}

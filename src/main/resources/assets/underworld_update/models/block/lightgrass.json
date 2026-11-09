@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "underworld_update:block/terre_claire",
+    "top": "underworld_update:block/bloc_herbe_claire_dessus",
+    "side": "underworld_update:block/bloc_herbe_claire_cote",
+    "overlay": "underworld_update:block/bloc_herbe_claire_cote",
+    "particle": "underworld_update:block/terre_claire"
+  },
+  "render_type": "cutout_mipped"
+}

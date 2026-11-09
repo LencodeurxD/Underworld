@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "underworld_update:block/tronc_divin",
+    "particle": "underworld_update:block/tronc_divin"
+  },
+  "render_type": "solid"
+}

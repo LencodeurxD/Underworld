@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "underworld_update:block/ciel_bruit",
+    "up": "underworld_update:block/ciel_bruit",
+    "north": "underworld_update:block/ciel_bruit",
+    "east": "underworld_update:block/ciel_bruit",
+    "south": "underworld_update:block/ciel_bruit",
+    "west": "underworld_update:block/ciel_bruit",
+    "particle": "underworld_update:block/ciel_bruit"
+  },
+  "render_type": "solid"
+}

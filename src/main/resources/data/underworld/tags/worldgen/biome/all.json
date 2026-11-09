@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#underworld:light",
+    "#underworld:dark",
+    "#underworld:neutral"
+  ]
+}

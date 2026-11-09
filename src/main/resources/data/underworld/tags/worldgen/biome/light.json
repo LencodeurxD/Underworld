@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "underworld:light_plain",
+    "underworld:light_forest",
+    "underworld:light_eden"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "underworld_update:block/darkpressureplate"
+    },
+    "powered=true": {
+      "model": "underworld_update:block/darkpressureplate_down"
+    }
+  }
+}

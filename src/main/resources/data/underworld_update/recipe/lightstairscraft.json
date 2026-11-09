@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "underworld_update:lightplanks"
+    }
+  },
+  "result": {
+    "id": "underworld_update:lightstairs",
+    "count": 4
+  }
+}

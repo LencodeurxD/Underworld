@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "tag": "underworld_update:logs"
+    }
+  },
+  "result": {
+    "id": "minecraft:crafting_table",
+    "count": 1
+  }
+}

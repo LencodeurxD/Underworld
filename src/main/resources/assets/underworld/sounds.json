@@ -1,0 +1,378 @@
+{
+  "fairy.appear.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/appear_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/appear_2_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.appear.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/appear_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/appear_2_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.bond.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/bond_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/bond_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/bond_3_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.bond.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/bond_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/bond_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/bond_3_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.call.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/call_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/call_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/call_3_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.call.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/call_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/call_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/call_3_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.flutter.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/flutter_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/flutter_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/flutter_3_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.flutter.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/flutter_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/flutter_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/flutter_3_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.giggle.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/giggle_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/giggle_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/giggle_3_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.giggle.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/giggle_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/giggle_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/giggle_3_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.scare.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/scare_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/scare_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/scare_3_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.scare.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/scare_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/scare_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/scare_3_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.sleep.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/sleep_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/sleep_2_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.sleep.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/sleep_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/sleep_2_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.sulk.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/sulk_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/sulk_2_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.sulk.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/sulk_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/sulk_2_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.twinkle.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/twinkle_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_3_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_4_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_5_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_6_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.twinkle.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/twinkle_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_3_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_4_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_5_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/twinkle_6_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.voice.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/voice_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_3_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_4_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_5_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_6_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.voice.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/voice_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_3_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_4_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_5_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/voice_6_light",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.win.dark": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/win_1_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/win_2_dark",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/win_3_dark",
+        "stream": false
+      }
+    ]
+  },
+  "fairy.win.light": {
+    "sounds": [
+      {
+        "name": "underworld:fairy/win_1_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/win_2_light",
+        "stream": false
+      },
+      {
+        "name": "underworld:fairy/win_3_light",
+        "stream": false
+      }
+    ]
+  }
+}

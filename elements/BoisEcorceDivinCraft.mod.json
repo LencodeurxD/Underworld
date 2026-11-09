@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:BucheEcorceeDivine",
+      "CUSTOM:BucheEcorceeDivine",
+      "",
+      "CUSTOM:BucheEcorceeDivine",
+      "CUSTOM:BucheEcorceeDivine",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BoisEcorceDivin",
+    "name": "bois_ecorce_divin_craft",
+    "namespace": "mod"
+  }
+}

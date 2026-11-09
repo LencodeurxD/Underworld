@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_fence",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:Lightplanks",
+      "Items.STICK",
+      "CUSTOM:Lightplanks",
+      "CUSTOM:Lightplanks",
+      "Items.STICK",
+      "CUSTOM:Lightplanks",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:BarriereClaire",
+    "name": "lightfencecraft",
+    "namespace": "mod"
+  }
+}

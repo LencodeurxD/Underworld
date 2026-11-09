@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "underworld_update:block/tronc_divin_dessus",
+    "up": "underworld_update:block/tronc_divin_dessus",
+    "north": "underworld_update:block/tronc_divin",
+    "east": "underworld_update:block/tronc_divin",
+    "south": "underworld_update:block/tronc_divin",
+    "west": "underworld_update:block/tronc_divin",
+    "particle": "underworld_update:block/tronc_divin_dessus"
+  },
+  "render_type": "solid"
+}

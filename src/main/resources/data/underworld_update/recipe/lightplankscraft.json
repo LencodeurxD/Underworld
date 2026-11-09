@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "underworld_update:lightoak"
+    }
+  ],
+  "result": {
+    "id": "underworld_update:lightplanks",
+    "count": 4
+  }
+}

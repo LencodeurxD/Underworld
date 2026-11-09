@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "underworld_update:block/planches_sombres",
+    "bottom": "underworld_update:block/planches_sombres",
+    "top": "underworld_update:block/planches_sombres",
+    "side": "underworld_update:block/planches_sombres"
+  },
+  "render_type": "solid"
+}
